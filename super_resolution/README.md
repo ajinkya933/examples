@@ -24,9 +24,10 @@ This example trains a super-resolution network on the [BSD300 dataset](https://w
 
 ## Example Usage:
 
+
 ### Train
 
 `python main.py --upscale_factor 3 --batchSize 4 --testBatchSize 100 --nEpochs 30 --lr 0.001`
 
-### Super Resolve
+### Single Image super-resolution
 `python super_resolve.py --input_image dataset/BSDS300/images/test/16077.jpg --model model_epoch_500.pth --output_filename out.png`
